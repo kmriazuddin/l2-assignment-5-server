@@ -13,17 +13,12 @@ router.post(
   UserControllers.createUser,
 );
 
-//login
 router.post(
   '/login',
   validateRequest(authValidation.loginValidationSchema),
   authController.loginUser,
 );
 
-router.get(
-  '/:email',
-
-  UserControllers.getSingleUserByEmail,
-);
+router.get('/:email', UserControllers.getSingleUserByEmail);
 
 export const userRoute = router;
