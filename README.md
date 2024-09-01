@@ -1,42 +1,65 @@
-# Project Name
 
-- Meeting Room Booking System for Co-working spaces
+# Meeting Room Booking System
 
-* Live URL
+### Developing this comprehensive e-commerce website with the following core pages and functionality:
 
-# How to run the project in locally
+- Home Page
+- Meeting Room Page
+- Room Details Page
+- Cart Page
+- Checkout Page
+- Room Management/Dashboard Page
+- About Us Page
+- Contact Us Page
+- My Bookings
 
-To run the project locally, follow these steps:
+### Technology Stack:
+- Frontend: React with Vite, TypeScript, Redux, RTK Query.
+- Backend: TypeScript, Node, Express, MongoDB, Mongoose, Zod.
 
-- Please clone the repository and open terminal in the root directory of project.
-- Install node module using `npm install` and setup environment variables and MongoDB and ensure MongoDB instance is running suceessfully.
-- To start the application in development mode using `npm run start:dev`.
 
-# Features
+## Navbar:
+- Home
+- Products
+- About Us
+- Contact Us
+- Meeting Room 
+- My Bookings
+- Admin/Dashboard
 
-- User Registration and Login:
+## Featured Room:
+### Show 7 featured details page.
+- Image
+- Title / Name
+- Available Quantity
+- Price
+- Floor
+- Capacity
+- Amenities
 
-* Users can register and login to the system using their email and password.
+## Cart Page:
+- Cart Meeting Room
+- Pricing Details
+- Proceed To Checkout Button
 
-- Room Management:
+## Checkout Page:
+- User Details
+- Payment Methods
 
-* Admin can add, edit, and delete meeting rooms.
-* user can access all romms.
+## Meeting Room Management:
+- Product List Table
+- Action Buttons
+- Adding a Meeting Room
 
-- Booking Slots:
 
-* Admin can set available booking slots for each room.
-* User can book a room for a specific time slot.
+### Clone This Repositories you will need to install some npm packages
+```
+npm install
+```
 
-- Manage Bookings:
+## Connect mongoDB
+#### Create .env file then added a PORT & Database_Url
 
-* User can add their bookings and check their own bookings.
-* Admin can view all bookings, also can update and delete any single booking.
-
-# Technologies Used
-
-- Backend: Node.js, Express.js, Mongoose
-- Authentication: JWT (JSON Web Token)
-- Environment Management: dotenv
-- Validation: Zod
-- Other Tools: ESLint, Prettier, TypeScript
+```
+mongodb+srv://myDatabaseUser:D1fficultP%40ssw0rd@mongodb0.example.com/?authSource=admin&replicaSet=myRepl
+```
