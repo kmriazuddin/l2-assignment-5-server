@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: 'https://l2-assignment-5-server.vercel.app',
+    origin: 'https://l2-assignment-5-client.vercel.app',
     credentials: true,
   }),
 );
